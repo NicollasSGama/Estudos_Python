@@ -1,4 +1,4 @@
-def least_diffee(a, b, c):
+def least_difference(a, b, c):
     """Return the smallest difference between any two numbers
     among a, b and c.
 
@@ -79,3 +79,4 @@ def return_num(num):
     """
     return round(num, -2)
 print(return_num(222.12341234))
+help(return_num)
