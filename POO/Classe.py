@@ -101,19 +101,19 @@ class Conta_Poupaca(Conta):
             raise 'A conta não está ativa'
 
 
-cp = Conta_Poupaca(valor=1000, cliente='Pedrinho')
+cp = Conta_Poupaca(valor=1500, cliente='Pedrinho')
 cc = Conta_Corrente(valor=1400, cliente='Joselito', limite=1200)
-print(cp.saldo)
+print(f'Este é o saldo da conta R${cp.saldo}.')
 cp.deposito(1000)
-print(cp.saldo)
+print(f'Este é o saldo da conta R${cp.saldo}.')
 cp.saque(1999)
-print(cp.saldo)
-print('*' * 30)
-print(cc.saldo)
-cc.deposito(1573)
-print(cc.saldo)
-cc.saque(4000)
-print(cc.saldo)
+print(f'Este é o saldo da conta R${cp.saldo}.')
+# print('*' * 30)
+# print(cc.saldo)
+# cc.deposito(1573)
+# print(cc.saldo)
+# cc.saque(4000)
+# print(cc.saldo)
 
 
 class Cliente:
