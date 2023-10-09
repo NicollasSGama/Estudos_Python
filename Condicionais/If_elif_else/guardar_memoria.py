@@ -48,7 +48,7 @@ for x in tuple_2:  # for x in range(len(tuple_2))  /  print(tuple_2[x])
         veiculo.append(x)
 
 print(veiculo)
-# ------------------
+# -------------------
 import timeit
 
 # comprehension e generation
