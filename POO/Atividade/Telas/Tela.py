@@ -53,8 +53,8 @@ def login():
                   layout)
 
 
-# janela_login = login()
-# janela_login.read()
+janela_login = login()
+janela_login.read()
 
 # --------------------------------------------
 # Tela Menu
@@ -80,8 +80,8 @@ def menu():
                   layout)
 
 
-# janela_menu = menu()
-# janela_menu.read()
+janela_menu = menu()
+janela_menu.read()
 
 # --------------------------------------------
 # Tela Cliente
@@ -135,8 +135,8 @@ def tela_cliente():
                   layout)
 
 
-# janela_cliente = tela_cliente()
-# janela_cliente.read()
+janela_cliente = tela_cliente()
+janela_cliente.read()
 
 # --------------------------------------------
 # Tela Animal_Cliente
@@ -174,8 +174,8 @@ def tela_animal_cliente():
                   layout)
 
 
-# janela_busca = tela_animal_cliente()
-# janela_busca.read()
+janela_busca = tela_animal_cliente()
+janela_busca.read()
 
 # --------------------------------------------
 # Tela Animal
@@ -270,13 +270,13 @@ def tela_animal():
                   layout)
 
 
-# janela_animal = tela_animal()
-# janela_animal.read()
+janela_animal = tela_animal()
+janela_animal.read()
 
-janela_login, janela_menu, janela_cliente, janela_busca, janela_animal = login(), None, None, None, None
-
-while True:
-    janela, eventos, valores = read_all_windows()
-    match janela:
-        case janela_login:
-            break
+# janela_login, janela_menu, janela_cliente, janela_busca, janela_animal = login(), None, None, None, None
+#
+# while True:
+#     janela, eventos, valores = read_all_windows()
+#     match janela:
+#         case janela_login:
+#             break
